@@ -76,7 +76,7 @@ export default function LandingPage() {
       ]}
       mediaItems={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/barbershop-washbasin-with-professional-chairs_23-2148298338.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/barbershop-washbasin-with-professional-chairs_23-2148298338.jpg?_wi=1",
           imageAlt: "Luxurious barber shop environment",
         },
         {
@@ -152,7 +152,7 @@ export default function LandingPage() {
             },
           ],
           reverse: false,
-          imageSrc: "http://img.b2bpic.net/free-photo/barbershop-washbasin-with-professional-chairs_23-2148298338.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/barbershop-washbasin-with-professional-chairs_23-2148298338.jpg?_wi=2",
           imageAlt: "professional straight razor shave service",
         },
       ]}
