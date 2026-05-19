@@ -166,7 +166,7 @@ export default function LandingPage() {
       background={{ variant: "radial-gradient" }}
       tag="Visit Us"
       title="Book Your Chair"
-      description="Experience premium grooming in Lake Charles."
+      description="1636 Middle Tennessee Blvd, Murfreesboro, TN 37130, United States | +1 615-203-5313"
       buttons={[{ text: "Schedule Appointment", href: "https://booking.com" }]}
     />
   </div>
@@ -174,8 +174,8 @@ export default function LandingPage() {
   <div id="footer" data-section="footer">
       <FooterLogoReveal
       logoText="BLADES & FADES"
-      leftLink={{ text: "Privacy Policy", href: "#" }}
-      rightLink={{ text: "© 2024 Blades & Fades", href: "#" }}
+      leftLink={{ text: "1636 Middle Tennessee Blvd, Murfreesboro, TN 37130", href: "#" }}
+      rightLink={{ text: "+1 615-203-5313", href: "tel:+16152035313" }}
     />
   </div>
       </ReactLenis>
