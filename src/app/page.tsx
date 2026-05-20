@@ -50,12 +50,12 @@ export default function LandingPage() {
       description="Welcome to Blades and Fades—where flawless execution meets 10/10 service. We blend classic barbering techniques with modern style in an atmosphere designed entirely for your comfort."
       buttons={[{ text: "Book Your Chair", href: "#contact" }]}
       mediaItems={[
-        { imageSrc: "http://img.b2bpic.net/free-photo/barbershop-washbasin-with-professional-chairs_23-2148298338.jpg", imageAlt: "Luxurious barber shop environment" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/hairdresser-cutting-man-s-hair-barber-shop_23-2149186474.jpg", imageAlt: "Master barber in action" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/front-view-beautiful-woman-dog_23-2148777178.jpg", imageAlt: "Detail of premium grooming tools" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/mid-section-barber-wiping-clients-face-with-hot-towel_107420-94798.jpg", imageAlt: "Relaxed high-end salon atmosphere" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/bearded-male-sitting-armchair-barber-shop-while-hairdresser-modeling-beard-with-scissors-comb-barbershop_613910-18515.jpg", imageAlt: "Wide shot of elegant barbershop" },
-        { imageSrc: "http://img.b2bpic.net/free-photo/hair-salon-chair-with-towel-armchair_23-2148242777.jpg", imageAlt: "Clean, orderly barber grooming station" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779265994134-142ti1ik.jpg", imageAlt: "Luxurious barber shop environment" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779265978791-n5p7wvcv.jpg", imageAlt: "Master barber in action" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266153579-wn7teqgc.jpg", imageAlt: "Detail of premium grooming tools" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779265866646-wlfwvhk6.jpg", imageAlt: "Relaxed high-end salon atmosphere" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266162727-suce378w.jpg", imageAlt: "Wide shot of elegant barbershop" },
+        { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266008452-oq3p6tfk.jpg", imageAlt: "Clean, orderly barber grooming station" },
       ]}
     />
   </div>
@@ -81,7 +81,7 @@ export default function LandingPage() {
       features={[
         {
           title: "Precision Haircuts",          description: "Tailored cuts crafted for your lifestyle and hair texture.",          media: {
-            imageSrc: "http://img.b2bpic.net/free-photo/brushing-teeth-process-small-dog-sits-table-dog-brushed-by-professional_1157-48822.jpg",            imageAlt: "Haircut precision"},
+            imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266057086-pjcgug1v.jpg",            imageAlt: "Haircut precision"},
           items: [
             { icon: CheckCircle, text: "Consultation included" },
             { icon: CheckCircle, text: "Styling product tutorial" },
@@ -134,9 +134,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       team={[
-        { id: "1", name: "James R.", role: "Master Barber", imageSrc: "http://img.b2bpic.net/free-photo/man-playing-with-his-toy-poodle_23-2147840145.jpg" },
-        { id: "2", name: "Marcus L.", role: "Lead Barber", imageSrc: "http://img.b2bpic.net/free-photo/experienced-florist-holding-dog-smiles_23-2148435668.jpg" },
-        { id: "3", name: "Sarah K.", role: "Barber Stylist", imageSrc: "http://img.b2bpic.net/free-photo/pleased-young-beautiful-female-barber-uniform-showing-timeout-gesture-isolated-green-wall_141793-106149.jpg" },
+        { id: "1", name: "", role: "Master Barber", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266431808-rrspm030.jpg" },
+        { id: "2", name: "", role: "The Team  ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266506093-rp622j84.jpg" },
+        { id: "3", name: "", role: "Owner  ", imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3DticVOGIugwyDmChruPO1kyKFN/uploaded-1779266621421-zbvu5hjt.jpg" },
       ]}
       title="Meet Your Barbers"
       description="Our team of professionals are here to elevate your grooming standards."
@@ -149,7 +149,8 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={false}
       testimonials={[
-        { id: "1", name: "Robert B.", role: "Executive", testimonial: "The most professional grooming I've had in Lake Charles.", imageSrc: "http://img.b2bpic.net/free-photo/happy-young-man-sitting-isolated-grey_171337-10568.jpg" },
+        { id: "1", name: " Been using Slimm for 7 yrs to cut my boys hair. Good conversation and a prayer if you need it.
+A true blessing for our family.", role: "Executive", testimonial: "", imageSrc: "http://img.b2bpic.net/free-photo/happy-young-man-sitting-isolated-grey_171337-10568.jpg" },
         { id: "2", name: "Mark D.", role: "Professional", testimonial: "Exceptional precision and a truly relaxing atmosphere.", imageSrc: "http://img.b2bpic.net/free-photo/two-brutal-men-suits-pose-mirror-stand-side-by-side-hug-tenderly-love-gay-couple_343596-7338.jpg" },
         { id: "3", name: "David W.", role: "Consultant", testimonial: "Blades & Fades is my new go-to. Incredible service.", imageSrc: "http://img.b2bpic.net/free-photo/portrait-bearded-black-man-with-crossed-arms-wearing-wool-suit_613910-1866.jpg" },
         { id: "4", name: "Kevin T.", role: "Entrepreneur", testimonial: "The service is unrushed and the staff is genuinely welcoming.", imageSrc: "http://img.b2bpic.net/free-photo/barber-giving-high-five-client_23-2147737095.jpg" },
